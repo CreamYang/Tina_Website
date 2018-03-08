@@ -68,6 +68,7 @@ section#profile {
   background-color: #90bfab;
   padding-top: 60px;
   padding-bottom: 60px;
+  overflow: hidden
 }
 section#profile .col-sm-5 {
   min-width: 350px;
@@ -77,9 +78,11 @@ section#profile .col-sm-5 .block {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 100%;
+  height: 115%;
   min-height: 650px;
   background-color: #754158;
+  margin-top: -65px
+  margin-right: 20px;
 }
 section#profile .col-sm-5 .photo {
   height: 150px;
