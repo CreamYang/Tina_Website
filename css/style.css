@@ -4,27 +4,29 @@
   color: #323232;
 }
 
-header.container {
-  padding: 0;
+header.container-fluid {
+  padding: 0 50px;
+  background-color: #fff;
+  border: solid 1px #889b93;
 }
-header.container .row {
+header.container-fluid .row {
   display: flex;
   align-items: center;
   margin: 0;
 }
-header.container .row .home {
+header.container-fluid .row .home {
   font-size: 35px;
   font-family: "Coiny";
   padding: 15px 0 0 0;
   color: #c33f6a;
   text-decoration: none;
 }
-header.container .row nav {
+header.container-fluid .row nav {
   display: flex;
   justify-content: flex-end;
   padding-top: 20px;
 }
-header.container .row nav a {
+header.container-fluid .row nav a {
   color: #c33f6a;
   font-weight: 900;
   letter-spacing: 2px;
@@ -34,14 +36,18 @@ header.container .row nav a {
   border-bottom: solid 2px #FFF;
   text-decoration: none;
 }
-header.container .row nav a:hover {
+header.container-fluid .row nav a:hover {
   text-decoration: none;
   border-bottom: solid 2px #c33f6a;
 }
 
+section {
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+
 section.jumbotron {
   margin-bottom: 0;
-  border-top: solid 1px rgba(0, 0, 0, 0.3);
   background-image: url("http://res.cloudinary.com/creamyang/image/upload/v1520426055/teatime_-_edit-b.png");
   background-size: cover;
 }
@@ -60,6 +66,8 @@ section.jumbotron .container h4 {
 
 section#profile {
   background-color: #90bfab;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 section#profile .col-sm-5 {
   min-width: 350px;
@@ -125,7 +133,7 @@ section#profile .col-sm-7 .block ul li span {
 }
 
 section#resume {
-  padding: 30px 0;
+  padding-bottom: 30px;
   background-color: #DBDBDB;
 }
 section#resume h4, section#resume h6 {
@@ -175,7 +183,7 @@ section#resume .row .line_svg polyline {
 }
 
 section#portfolio_web {
-  padding: 30px 0;
+  padding-bottom: 30px;
   background-color: #e1eebc;
 }
 section#portfolio_web .row .block {
@@ -220,7 +228,7 @@ section#portfolio_web .row p {
 }
 
 section#portfolio_draws {
-  padding: 30px 0;
+  padding-bottom: 30px;
   background-color: #DBDBDB;
 }
 section#portfolio_draws .container-fluid {
